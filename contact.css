@@ -1,0 +1,128 @@
+header {
+    display: flex;
+    justify-content: right;
+    padding: 10px;  
+}
+
+.logo {
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    width: 250px; 
+    height: auto; 
+ }
+ 
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; 
+}
+
+nav li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav a {
+    color: #fff; 
+    text-decoration: none;
+    margin: 0 10px;
+    font-family:'Times New Roman';
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: rgb(118, 117, 114);
+    font-weight: bold;
+ 
+}
+
+.title-bar {
+    font-size: medium;
+    background-color: #b5adadb6;
+    opacity: 0.4;
+    padding-top: 5px;
+    padding-bottom: 28px;
+    text-align: center;
+    background: linear-gradient(to right, rgba(169, 167, 167, 0.45rgba(110, 109, 109, 0)109)); 
+}
+
+.title-bar h2 {
+    margin-bottom: 0px;
+    font-size: 45px;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url('crossfit1.jpeg') no-repeat;
+    background-size: cover;
+}
+
+.contactbody {
+    margin-top: 50px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    
+}
+
+.form-container {
+    background-color: #d5d0d060; 
+    padding: 20px;
+    width: 10cm;
+    height: 10cm;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+form {
+    margin-top: 15px;
+    margin-left: 15px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: justify;
+}
+
+
+textarea, input, select {
+    width: calc(100% - 20px);
+    box-sizing: border-box;
+    margin-bottom: 10px; 
+    padding: 8px;
+}
+
+button {
+    margin: auto;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: rgb(81, 79, 79);
+    color: white; 
+}
+
+.icon {
+    margin-top: 20px;
+    width: 30px; 
+    height: 30px;
+}
+
+footer {
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+} 
+
+.footer-bar {
+    background-color: #d5d0d0a0;
+    height: 100px;
+}
